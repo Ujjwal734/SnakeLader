@@ -9,5 +9,10 @@ namespace SnakeLader
     public class SnakeLadder
     {
         int playerposition = 0;
+        public int DiceRoll()
+        {
+            Random random = new Random();
+            return random.Next(1,7);
+        }
     }
 }

@@ -37,29 +37,30 @@ namespace SnakeLader
                             Current_Position += 0;
                             Console.WriteLine("Current position of player is :" + "  " + Current_Position);
                             break;
-                      /*  case 2:
-                            Console.WriteLine("player is go for ladder");
-                            Current_Position = Current_Position + Dice_No;
-                            if (Current_Position > 100)
-                            {
-                                Console.WriteLine("current position of player go above 100 so we can not go for next position");
-                                Current_Position -= Dice_No;
-                            }
-                            Console.WriteLine("Current position of player is :" + "  " + Current_Position);
-                            break;
-                        case 3:
-                            Console.WriteLine("Player go for Snake point ");
-                            Current_Position = Current_Position - Dice_No;
-                            if (Current_Position < 0)
-                            {
-                                Console.WriteLine("your position going below  0  ");
-                                Current_Position = 0;
-                                Console.WriteLine("Current position default set as 0 :" + "  " + Current_Position);
-                            }
-                            Console.WriteLine("Current position of player is :" + "  " + Current_Position);
-                            break;*/
+                        case 2:
+                    Console.WriteLine("player is go for ladder");
+                    Current_Position = Current_Position + Dice_No;
+                    if (Current_Position > 100)
+                    {
+                        Console.WriteLine("current position of player go above 100 so we can not go for next position");
+                        Current_Position -= Dice_No;
                     }
- //                   Console.WriteLine("player roll dice " + "  " + Dice_Count + "  " + "th time  till now");
+                    Console.WriteLine("Current position of player is :" + "  " + Current_Position);
+                    break;
+                case 3:
+                    Console.WriteLine("Player go for Snake point ");
+                    Current_Position = Current_Position - Dice_No;
+                    if (Current_Position < 0)
+                    {
+                        Console.WriteLine("your position going below  0  ");
+                        Current_Position = 0;
+                        Console.WriteLine("Current position default set as 0 :" + "  " + Current_Position);
+                    }
+                    Console.WriteLine("Current position of player is :" + "  " + Current_Position);
+                    break;
+                    }
+
+
                 }
                 Console.WriteLine("player roll dice " + "  " + Dice_Count + "  " + "time for winning");
             }

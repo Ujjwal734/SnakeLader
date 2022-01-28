@@ -59,7 +59,7 @@ namespace SnakeLader
                     Console.WriteLine("Current position of player is :" + "  " + Current_Position);
                     break;
                     }
-
+                 Console.WriteLine("player roll dice " + "  " + Dice_Count + "  " + "th time  till now");
 
                 }
                 Console.WriteLine("player roll dice " + "  " + Dice_Count + "  " + "time for winning");
